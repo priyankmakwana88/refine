@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>CSS - Make Two DIVs Left and Right Aligned inside Main DIV.</title>
+		<!--Example CSS-->
+<!-- 		<link href="ExampleStyle.css" type="text/css" rel="stylesheet"/>
+ -->		<style>
+			.outerDiv
+			{
+				background-color: green;
+				color: #fff;
+				height: 100%;
+				width: 100%;
+				margin: 0px auto;
+				padding: 5px;
+			}
+			.leftDiv
+			{
+				background-color: red;
+				color: #000;
+				height: 100%;
+				width: 48%;
+				float: left;
+			}
+			.rightDiv
+			{
+				background-color: #efefef;
+				color: #000;
+				height: 100%;
+				width: 48%;
+				float: right;
+			}			
+		</style>
+	</head>
+	<body style="text-align: center;">
+		<h1>CSS - Make Two DIVs Left and Right Aligned inside Main DIV.</h1>
+		<div class="outerDiv">
+			<div class="leftDiv">
+				This is Left DIV.
+			</div>
+			<div class="rightDiv">
+				This is Right DIV.
+			</div>		
+			<div "style: clear:both;"></div>
+		</div>
+	</body>
+</html>
